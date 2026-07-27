@@ -9,12 +9,12 @@ The app is published at:
 
 **https://dimasta.github.io/DCSA_algorithmic_complexity/**
 
-Every push to `main` republishes it automatically (the workflow in
-`.github/workflows/pages.yml` copies the site to the `gh-pages` branch).
+The site is served directly from the root of the `main` branch — every push
+to `main` republishes it automatically, no build step or extra branches.
 
 > One-time setup: if the URL above returns 404, enable Pages once in
 > **Settings → Pages → Build and deployment → Source: Deploy from a branch →
-> Branch: `gh-pages` / `/ (root)`** and save.
+> Branch: `main` / `/ (root)`** and save.
 
 ## How to use
 
