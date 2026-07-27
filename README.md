@@ -3,9 +3,23 @@
 A small teaching web app for explaining algorithmic time complexity
 (O(1), O(log n), O(n), O(n log n), O(n²), ...) using real C++ code.
 
+## Live version (GitHub Pages)
+
+The app is published at:
+
+**https://dimasta.github.io/DCSA_algorithmic_complexity/**
+
+Every push to `main` republishes it automatically (the workflow in
+`.github/workflows/pages.yml` copies the site to the `gh-pages` branch).
+
+> One-time setup: if the URL above returns 404, enable Pages once in
+> **Settings → Pages → Build and deployment → Source: Deploy from a branch →
+> Branch: `gh-pages` / `/ (root)`** and save.
+
 ## How to use
 
-Open `index.html` in any browser — no build step or server required.
+Open the live URL (works on phones too) or open `index.html` locally in any
+browser — no build step or server required.
 
 1. Paste C++ code into the text field (or pick one of the built-in examples
    from the dropdown: constant, binary search, bubble sort, matrix
